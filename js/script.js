@@ -11,7 +11,6 @@ $(document).ready(function(){
 
         autoplay: {
             delay: 0,
-            // pauseOnMouseEnter: true,
             disableOnInteraction: false,
             },
 
@@ -26,27 +25,17 @@ $(document).ready(function(){
                 });
             }
         },
-
-
-
-            
     });
     
 
     //sec-4 스와이퍼
     var swiper = new Swiper(".sec-4-swiper", {
-        // slidesPerView: 2,
-        // spaceBetween: 0,
-        // slidesPerGroup: 2,
-
         effect: "fade",
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
       });
-
-      
 
 
     var ww = $(window).width();
@@ -74,43 +63,9 @@ $(document).ready(function(){
         }else{
             $('#wrap').css({'background-color':''});
         }
-        // else if(sec6 == 0){
-        //     $('#wrap').css({'background-color':'#FFB7C4'})
-        // }
 
-
-        //쌤 - header 는 active 추가로
-        //쌤 - 배경색 은 offset 값으로
-        
-        //header fixed
-        // if(sct >= 200){
-        //     $('.header').addClass('active');
-        // }
-
-        //배경 색 바꾸기
-        // if(sct >= 2300 && sct < 6200){
-        //     $('#wrap').css({'background-color':'#F26A3F'});
-        // }else if(sct >= 6200){
-        //     $('#wrap').css({'background-color':'#FFB7C4'});
-        // }else{
-        //     $('#wrap').css({'background-color':''});
-        // }
-        //menu line 200 이상에서 없애고싶은데 스크롤 이벤트 어떻게 해야할지
-
-
-
-        // if(sct > 0){
-        //     $('#wrap').css({'background-color':'#8E1F44'})
-        // }else if(sct >= 2500 && sct < 4600){
-        //     $('#wrap').css({'background-color':''})
-        // }else if(sct >= 4600 && sct ){
-        //     $('#wrap').css({'background-color':'#FFB7C4'})
-        // }else if(sct > 5600){
-        //     $('#wrap').css({'background-color':''})
-        // }else if(sct > 7200){
-        //     $('#wrap').css({'background-color':'#FFB7C4'})
-        // }else{}
     });
+
 
     //banner line animation
     $('.menu li a').mouseenter(function(){
@@ -119,14 +74,6 @@ $(document).ready(function(){
     $('.menu li a').mouseleave(function(){
         $(this).children('.menu-line').removeClass('active');
     });
-
-    //animate 호버 시 멈춤
-    // $('.animate-wrap').mouseenter(function(){
-    //     $('.animate-slider-box').css({'animation':'none'});
-    // });
-    // $('.animate-wrap').mouseleave(function(){
-    //     $('.animate-slider-box').css({'animation':''});
-    // });
 
 
     //card animation
@@ -146,35 +93,11 @@ $(document).ready(function(){
         $(this).removeClass('on')
     });
 
-    //sec-3 animate
-    // $('.sec-3 svg').mouseenter(function(){
-    //     $(this).addClass('active');
-    // });
-    // $('.sec-3 svg').mouseleave(function(){
-    //     $(this).removeClass('active');
-    // });
-
 
     //sec-1 background
     $('.sec-1 .slide').hover(function(){
         $(this).children('.background::before').css({'opacity':'1'})
     });
-
-
-    //sec-6 img-box
-    // $('.sec-6 .slide').hover(function(){
-    //     $(this).children('.img-box').css({
-    //         'animation-name': 'slide',
-    //         'animation-duration':'1s'})
-    //     $(this).siblings().children('.img-box').css({
-    //         'animation':'none'
-    //     })
-    // });
-    // $('.sec-6 .slide').mouseenter(function(){
-    //     $(this).children('.img-box').css({
-    //         'animation':'none'
-    //     })
-    // });
 
 
     //760이하 menu 튀어나오기
