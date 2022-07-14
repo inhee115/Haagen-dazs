@@ -1,14 +1,5 @@
 @charset "utf-8";
 
-/* @font-face {
-    font-family: "Roboto";
-    src: url(../font/Roboto/Roboto-Black.ttf);
-    src: url(../font/Roboto/Roboto-Bold.ttf);
-    src: url(../font/Roboto/Roboto-Light.ttf);
-    src: url(../font/Roboto/Roboto-Medium.ttf);
-    src: url(../font/Roboto/Roboto-Regular.ttf);
-    src: url(../font/Roboto/Roboto-Thin.ttf);
-} */
 @font-face {
     font-family: "PlayfairDisplay";
     src: url(../font/Playfair_Display/PlayfairDisplay-Black.ttf);
