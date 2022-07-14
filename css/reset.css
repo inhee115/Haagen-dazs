@@ -28,7 +28,6 @@ body{
     font-family: "NotoSansKR";
     font-size: 100%;
     color: #222;
-    overflow-x: hidden;
 }
 a{
     text-decoration: none;
