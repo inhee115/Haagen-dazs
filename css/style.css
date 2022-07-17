@@ -771,6 +771,7 @@
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 12px;
+    cursor: pointer;
 }
 .footer .notice li:last-child{
     margin-bottom: 0;
@@ -784,6 +785,7 @@
 .footer .icon .img-box{
     width: 35px;
     height: 35px;
+    cursor: pointer;
 }
 .footer .icon .img-box:first-child{
     margin-right: 20px;
@@ -1964,6 +1966,29 @@
         width: 200px;
         font-size: 18px;
         margin-top: 15px;
+    }
+    .sec-6 .slide.box2 {
+        margin-top: 20px;
+    }
+    .sec-6 .slide.box4 {
+        margin-top: 10px;
+    }
+    .sec-6 .slide.box6 {
+        margin-top: 30px;
+    }
+    .sec-6 .slide:hover .img-box{
+        animation: slide-m 1s infinite; 
+    }
+    @keyframes slide-m{
+        0%{
+            transform: translate(0);
+        }
+        50%{
+            transform: translateY(-8px);
+        }
+        100%{
+            transform: translate(0);
+        }
     }
 
     /* footer */
