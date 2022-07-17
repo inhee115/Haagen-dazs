@@ -28,6 +28,7 @@ body{
     font-family: "NotoSansKR";
     font-size: 100%;
     color: #222;
+    cursor: default;
 }
 a{
     text-decoration: none;
