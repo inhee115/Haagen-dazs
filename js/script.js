@@ -56,7 +56,6 @@ $(document).ready(function(){
         var sec6 = $('.sec-6').offset().top;
         
         if(sct >= sec2 && sct < sec6){
-            console.log('됨');
             $('#wrap').css({'background-color':'#F26A3F'});
         }else if(sct >= sec6){
             $('#wrap').css({'background-color':'#FFB7C4'})
